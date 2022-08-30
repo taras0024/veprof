@@ -1,0 +1,90 @@
+syntax:glob
+
+*.py[cod]
+
+# C extensions
+*.so
+/business
+/demo
+/ui-header
+
+node_modules/
+# Packages
+*.egg
+*.egg-info
+dist
+build
+_build
+eggs
+parts
+./bin
+./var
+./sdist
+develop-eggs
+.installed.cfg
+./lib
+./lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+*.pot
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+.DS_Store
+
+*.log
+*.pid
+
+# PyCharm
+.idea/
+
+# Eclipse
+.settings
+
+# ipython
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# Virtualization
+.vagrant
+*.box
+venv
+
+# Provisioning
+vagrant_ansible_inventory_*
+
+# misc
+celerybeat-schedule
+tmp/
+ssh/
+.svn
+*.todo
+files.zip
+zz_*
+
+# Test tools
+*/drivers/*
+
+# Google
+discounts/settings/secrets/ga_prod_report_credentials.json
+
+# JS files (packages, node_modules)
+bundle.js
+bundle.js.map
+
+# Custom
+Pipfile
+Pipfile.lock
+docker/app.env
+media
